@@ -7,7 +7,8 @@
       "wealth": "Gestion de Patrimoine",
       "institutional": "Institutionnel",
       "about": "À propos de Prime Trust Finance",
-      "promotions": "Promotions"
+      "promotions": "Promotions",
+      "updates": "Actualités"
     },
     "logo": "PRIME TRUST FINANCE",
     "tagline": "Transformer des Vies Financièrement",
@@ -193,7 +194,7 @@
     },
     "location": {
       "visitUs": "Nous Visiter",
-      "address": "KN 1 Ave, Kigali Heights, Kigali, Rwanda",
+      "address": "Kigali - Gasabo | Kimironko",
       "callUs": "Nous Appeler",
       "phone": "+250 788 191 000",
       "email": "Email",
@@ -586,7 +587,7 @@
     "call": { "title": "Appelez-Nous", "desc": "Parlez directement à un représentant", "detail": "+250 788 191 000", "action": "Appeler" },
     "chat": { "title": "Chat en Direct", "desc": "Discutez avec notre équipe en temps réel", "detail": "Disponible 24/7", "action": "Démarrer le Chat" },
     "email": { "title": "Envoyez-nous un Email", "desc": "Envoyez-nous un message, réponse sous 24h", "detail": "support@primetrustfinance.com", "action": "Envoyer" },
-    "branch": { "title": "Visitez une Agence", "desc": "Obtenez de l'aide en personne", "detail": "KN 1 Ave, Kigali Heights, Kigali", "action": "Trouver une Agence" },
+    "branch": { "title": "Visitez une Agence", "desc": "Obtenez de l'aide en personne", "detail": "Kigali - Gasabo | Kimironko", "action": "Trouver une Agence" },
     "faq": {
       "title": "Questions Fréquentes",
       "q1": "Comment réinitialiser mon mot de passe bancaire?",
@@ -968,5 +969,30 @@
     "preferences": "Préférences",
     "language": "Langue",
     "notifications": "Notifications"
+  },
+  "updates": {
+    "title": "Dernières Nouvelles",
+    "viewAll": "Voir Toutes les Offres & Promotions",
+    "list": {
+      "newBadge": "Nouveau",
+      "learnMore": "En Savoir Plus",
+      "download": "Télécharger l'App",
+      "viewRates": "Voir les Taux",
+      "branchDate": "15 Juin 2026",
+      "branchTitle": "Nouvelle Agence à Musanze",
+      "branchDesc": "Nous sommes ravis d'annoncer l'ouverture de notre nouvelle agence dans le district de Musanze, pour vous offrir nos services de proximité.",
+      "mobileDate": "10 Juin 2026",
+      "mobileTitle": "Application Mobile Améliorée",
+      "mobileDesc": "Notre app supporte désormais l'intégration Ikofi MoMo et les alertes en temps réel en Kinyarwanda, Anglais et Français.",
+      "ratesDate": "5 Juin 2026",
+      "ratesTitle": "Nouveaux Taux d'Intérêt Compétitifs",
+      "ratesDesc": "Nous avons mis à jour nos taux d'épargne et de dépôt à terme. Jusqu'à 8,5% par an sur les comptes d'épargne et 12% par an sur les dépôts à terme.",
+      "holidayDate": "1 Juin 2026",
+      "holidayTitle": "Jours Fériés — Juillet 2026",
+      "holidayDesc": "Nos agences seront fermées le jour de l'Indépendance (1er juillet) et le jour de la Libération (4 juillet). Les services mobiles et internet restent disponibles 24/7.",
+      "diasporaDate": "28 Mai 2026",
+      "diasporaTitle": "Nouveaux Services pour la Diaspora",
+      "diasporaDesc": "Des solutions bancaires adaptées aux Rwandais vivant à l'étranger : ouverture de compte à distance, envois de fonds et investissements au pays."
+    }
   }
 }

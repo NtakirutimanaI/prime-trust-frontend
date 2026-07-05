@@ -7,7 +7,8 @@
       "wealth": "Ubucuruzi bw'Umutungo",
       "institutional": "Institisiyoni",
       "about": "Ibyerekeye Prime Trust Finance",
-      "promotions": "Amahinduka"
+      "promotions": "Amahinduka",
+      "updates": "Amakuru"
     },
     "logo": "PRIME TRUST FINANCE",
     "tagline": "Guhindura Ubuzima bwa Kinyarwanda",
@@ -193,7 +194,7 @@
     },
     "location": {
       "visitUs": "Naturukira",
-      "address": "KN 1 Ave, Kigali Heights, Kigali, Rwanda",
+      "address": "Kigali - Gasabo | Kimironko",
       "callUs": "Naduhamagara",
       "phone": "+250 788 191 000",
       "email": "Imeli",
@@ -586,7 +587,7 @@
     "call": { "title": "Naduhamagara", "desc": "Vugana n'umukozi udatinze", "detail": "+250 788 191 000", "action": "Hamagara" },
     "chat": { "title": "Kuganira", "desc": "Ganira n'itsinda ryacu mu gihe nyacyo", "detail": "Riboneka 24/7", "action": "Tangira Kuganira" },
     "email": { "title": "Tubereke Imeli", "desc": "Tubereke ubutumwa tuzagusubiza mu masaha 24", "detail": "support@primetrustfinance.com", "action": "Ohereza Imeli" },
-    "branch": { "title": "Sura Ishami", "desc": "Bona ubufasha bugufi", "detail": "KN 1 Ave, Kigali Heights, Kigali", "action": "Shaka Ishami" },
+    "branch": { "title": "Sura Ishami", "desc": "Bona ubufasha bugufi", "detail": "Kigali - Gasabo | Kimironko", "action": "Shaka Ishami" },
     "faq": {
       "title": "Ibibazo Bikunze",
       "q1": "Nigute nahindura ijambo ry'ibanga rya banki?",
@@ -966,5 +967,30 @@
     "preferences": "Ibyo Ukunda",
     "language": "Ururimi",
     "notifications": "Amatangazo"
+  },
+  "updates": {
+    "title": "Amakuru Mashya",
+    "viewAll": "Reba Ibikubiye Byose & Amahirwe",
+    "list": {
+      "newBadge": "Gishya",
+      "learnMore": "Menya Byinshi",
+      "download": "Kura App",
+      "viewRates": "Reba Ibiciro",
+      "branchDate": "15 Kamena 2026",
+      "branchTitle": "Ishami Rishya i Musanze",
+      "branchDesc": "Turanezerewe gutangaza ifungurwa ry'ishami ryacu rishya mu Karere ka Musanze, kugirango serivisi zibe hafi yanyu.",
+      "mobileDate": "10 Kamena 2026",
+      "mobileTitle": "Porogaramu ya Mobile Yatejwe Imbere",
+      "mobileDesc": "Porogaramu yacu noneho ishyigikira Ikofi MoMo hamwe n'amenyesha agende mu gihe nyacyo mu Kinyarwanda, Icyongereza n'Igifaransa.",
+      "ratesDate": "5 Kamena 2026",
+      "ratesTitle": "Ibiciro Bishya by'Inyungu",
+      "ratesDesc": "Twavuguruye ibiciro by'inyungu ku makonti yo kubitsa no kuzigama. Jya kugeza kuri 8.5% ku mwaka ku makonti yo kubitsa na 12% ku mwaka ku makonti y'agateganyo.",
+      "holidayDate": "1 Kamena 2026",
+      "holidayTitle": "Iminsi Mikuru — Nyakanga 2026",
+      "holidayDesc": "Amashami yacu azafungwa ku munsi w'Ukwibohora (1 Nyakanga) n'Umunsi w'Ubwigenge (4 Nyakanga). Serivisi za mobile na internet zizakomeza gukora 24/7.",
+      "diasporaDate": "28 Gicurasi 2026",
+      "diasporaTitle": "Serivisi Nshya za Diaspora",
+      "diasporaDesc": "Ibitekerezo byihariye by'imirimo ya banki ku Banyarwanda baba hanze. Fungura konti kure, ohereza amafaranga, kandi ushore imari mu Rwanda byoroshye."
+    }
   }
 }

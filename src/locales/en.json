@@ -7,7 +7,8 @@
       "wealth": "Wealth",
       "institutional": "Institutional",
       "about": "About Prime Trust Finance",
-      "promotions": "Promotions"
+      "promotions": "Promotions",
+      "updates": "Updates"
     },
     "logo": "PRIME TRUST FINANCE",
     "tagline": "Financially Transforming Lives",
@@ -193,7 +194,7 @@
     },
     "location": {
       "visitUs": "Visit Us",
-      "address": "KN 1 Ave, Kigali Heights, Kigali, Rwanda",
+      "address": "Kigali - Gasabo | Kimironko",
       "callUs": "Call Us",
       "phone": "+250 788 191 000",
       "email": "Email",
@@ -586,7 +587,7 @@
     "call": { "title": "Call Us", "desc": "Speak directly with a support representative", "detail": "+250 788 191 000", "action": "Call Now" },
     "chat": { "title": "Live Chat", "desc": "Chat with our support team in real-time", "detail": "Available 24/7", "action": "Start Chat" },
     "email": { "title": "Email Us", "desc": "Send us a message and we'll respond within 24 hours", "detail": "support@primetrustfinance.com", "action": "Send Email" },
-    "branch": { "title": "Visit a Branch", "desc": "Get in-person assistance at any branch", "detail": "KN 1 Ave, Kigali Heights, Kigali", "action": "Find Branch" },
+    "branch": { "title": "Visit a Branch", "desc": "Get in-person assistance at any branch", "detail": "Kigali - Gasabo | Kimironko", "action": "Find Branch" },
     "faq": {
       "title": "Frequently Asked Questions",
       "q1": "How do I reset my online banking password?",
@@ -968,5 +969,30 @@
     "preferences": "Preferences",
     "language": "Language",
     "notifications": "Notifications"
+  },
+  "updates": {
+    "title": "Latest Updates",
+    "viewAll": "View All Offers & Promotions",
+    "list": {
+      "newBadge": "New",
+      "learnMore": "Learn More",
+      "download": "Download App",
+      "viewRates": "View Rates",
+      "branchDate": "June 15, 2026",
+      "branchTitle": "New Branch Opening in Musanze",
+      "branchDesc": "We are excited to announce the opening of our new branch in Musanze District, bringing our services closer to you. Visit us for account opening, loans, and more.",
+      "mobileDate": "June 10, 2026",
+      "mobileTitle": "Enhanced Mobile Banking App",
+      "mobileDesc": "Our mobile app now supports Ikofi MoMo integration and real-time transaction alerts in Kinyarwanda, English, and French.",
+      "ratesDate": "June 5, 2026",
+      "ratesTitle": "New Competitive Interest Rates",
+      "ratesDesc": "We've updated our savings and fixed deposit rates. Enjoy up to 8.5% p.a. on savings accounts and 12% p.a. on fixed deposits.",
+      "holidayDate": "June 1, 2026",
+      "holidayTitle": "Public Holiday Schedule — July 2026",
+      "holidayDesc": "Our branches will be closed on Independence Day (July 1) and Liberation Day (July 4). Mobile and internet banking remain available 24/7.",
+      "diasporaDate": "May 28, 2026",
+      "diasporaTitle": "New Diaspora Banking Services",
+      "diasporaDesc": "Introducing tailored banking solutions for Rwandans living abroad. Open accounts remotely, send remittances, and invest back home with ease."
+    }
   }
 }

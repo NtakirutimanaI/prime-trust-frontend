@@ -13,6 +13,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline';
 import { useAuth } from '../context/AuthContext';
+import GoToTop from './GoToTop';
 
 const sidebarLinks = [
   { to: '/dashboard', label: 'Dashboard', labelKey: 'dashboardLayout.nav.dashboard', icon: HomeIcon },
@@ -110,10 +111,11 @@ export default function DashboardLayout() {
           </div>
         </header>
 
-        <main className="flex-1 overflow-y-auto p-4 lg:p-6">
+        <main id="dashboard-main" className="flex-1 overflow-y-auto p-4 lg:p-6">
           <Outlet />
         </main>
       </div>
+      <GoToTop containerId="dashboard-main" />
     </div>
   );
 }

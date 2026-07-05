@@ -1,8 +1,9 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { MagnifyingGlassIcon, MapPinIcon, QuestionMarkCircleIcon, ChevronDownIcon, XMarkIcon, BuildingOfficeIcon, CreditCardIcon, HomeIcon, TruckIcon, ChartBarIcon, GiftIcon, AcademicCapIcon, ArrowRightIcon, ArrowTrendingDownIcon, BanknotesIcon, BookOpenIcon, BriefcaseIcon, CalculatorIcon, CurrencyDollarIcon, DevicePhoneMobileIcon, DocumentTextIcon, GlobeAltIcon, PhoneIcon, ShieldCheckIcon, TagIcon, UserGroupIcon } from '@heroicons/react/24/outline';
+import { MagnifyingGlassIcon, MapPinIcon, QuestionMarkCircleIcon, ChevronDownIcon, XMarkIcon, BuildingOfficeIcon, CreditCardIcon, HomeIcon, TruckIcon, ChartBarIcon, GiftIcon, AcademicCapIcon, ArrowRightIcon, ArrowTrendingDownIcon, BanknotesIcon, BookOpenIcon, BriefcaseIcon, CalculatorIcon, CurrencyDollarIcon, DevicePhoneMobileIcon, DocumentTextIcon, GlobeAltIcon, PhoneIcon, ShieldCheckIcon, TagIcon, UserGroupIcon, MegaphoneIcon } from '@heroicons/react/24/outline';
 import { useAuth } from '../context/AuthContext';
+import UpdatesModal from './UpdatesModal';
 
 interface DropdownItem {
   label: string;
@@ -34,6 +35,7 @@ interface NavItem {
   path?: string;
   dropdown?: DropdownSection[];
   promos?: Promo[];
+  isUpdates?: boolean;
 }
 
 const navItems: NavItem[] = [
@@ -301,9 +303,10 @@ const navItems: NavItem[] = [
     ],
   },
   {
-    label: 'Advice',
-    labelKey: 'nav.main.advice',
-    path: '/advice',
+    label: 'Updates',
+    labelKey: 'nav.utility.updates',
+    path: '#',
+    isUpdates: true,
   },
 ];
 
@@ -380,6 +383,7 @@ export default function Navbar() {
   const [langOpen, setLangOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [locationOpen, setLocationOpen] = useState(false);
+  const [updatesOpen, setUpdatesOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const { user } = useAuth();
   const dropdownTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -591,6 +595,14 @@ export default function Navbar() {
                       {t(item.labelKey)}
                       <ChevronDownIcon className="inline h-3 w-3 ml-1" />
                     </button>
+                  ) : item.isUpdates ? (
+                    <button
+                      onClick={() => setUpdatesOpen(true)}
+                      className="px-3 xl:px-4 py-3 text-xs xl:text-sm font-medium text-navy hover:text-yellow-400 transition-colors whitespace-nowrap cursor-pointer"
+                    >
+                      <MegaphoneIcon className="h-4 w-4 inline mr-1 -mt-0.5" />
+                      {t(item.labelKey)}
+                    </button>
                   ) : (
                     <Link
                       to={item.path || '#'}
@@ -704,6 +716,8 @@ export default function Navbar() {
         </div>
       </div>
 
+      <UpdatesModal open={updatesOpen} onClose={() => setUpdatesOpen(false)} />
+
       {/* Mobile menu */}
       {mobileOpen && (
         <div className="lg:hidden bg-white border-b shadow-lg max-h-[80vh] overflow-y-auto">
@@ -768,6 +782,14 @@ export default function Navbar() {
               <div key={item.label}>
                 {item.dropdown ? (
                   <MobileDropdownItem item={item} onClose={() => setMobileOpen(false)} />
+                ) : item.isUpdates ? (
+                  <button
+                    onClick={() => { setUpdatesOpen(true); setMobileOpen(false); }}
+                    className="flex items-center w-full py-2 text-sm font-medium text-navy hover:text-red-600 cursor-pointer"
+                  >
+                    <MegaphoneIcon className="h-4 w-4 mr-2" />
+                    {t(item.labelKey)}
+                  </button>
                 ) : (
                   <Link
                     to={item.path || '#'}
